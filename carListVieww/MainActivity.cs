@@ -24,7 +24,7 @@ namespace carListVieww
             Car tenthCar = new Car(Resource.Drawable.car, "Volvo", "KW235", "10");
 
             cars = new Car[] { firstCar, secondCar, thirdCar, fourthCar, fifthCar, sixthCar, seventhCar, eightCar, ninthCar, tenthCar };
-
+            // gg dab
             ListAdapter = new CarListViewAdapter(this, cars);
             ListView.FastScrollEnabled = true;
           
